@@ -1,12 +1,8 @@
 /* ----------------------------------- footer ----------------------------------- */
 
 .wrapper_foot {
-    display: grid;
+    @include grid(repeat(12,1fr),repeat(3,3rem), 100vw, 9rem);
     background-color: map-get($map:$colors, $key:dark-grey);
-    width: 100vw;
-    height: 9rem;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 3rem);
     .foot_lightft {
         grid-column: 1/13;   
         grid-row: 1/2;

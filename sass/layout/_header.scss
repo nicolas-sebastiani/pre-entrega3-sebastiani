@@ -3,12 +3,8 @@
 
 
 .wrapper_head {
-    display: grid;
+    @include grid(repeat(12,1fr),repeat(3,3rem), 100vw, 9rem);
     background-color: map-get($map:$colors, $key:dark-grey);
-    width: 100vw;
-    height: 9rem;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 3rem);
     .logo {
         grid-column: 1/2;
         grid-row: 1/3;
