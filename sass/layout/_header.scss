@@ -1,0 +1,124 @@
+
+/* ---------------------------------- header --------------------------------- */
+
+
+.wrapper_head {
+    display: grid;
+    background-color: map-get($map:$colors, $key:dark-grey);
+    width: 100vw;
+    height: 9rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 3rem);
+    .logo {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        align-self: center;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .logobr{
+        grid-column: 12/13;
+        grid-row: 1/1;
+        justify-self: right;
+        align-self: center;
+        padding-right: .5rem;
+    }
+    .logoar{
+        grid-column: 12/13;
+        grid-row: 2/2;
+        justify-self: right;
+        align-self: center;
+        padding-right: .5rem;
+    }
+    .lightg {
+        grid-column: 1/13;
+        grid-row: 3/3;
+        background-color: #767272;
+        width: 100%;
+        height: 3rem;
+        z-index: 2;
+    }
+    .navsign {
+        grid-column: 1/1;
+        grid-row: 3/3;
+        justify-self: center;
+        align-self: center;
+        z-index: 3;
+        a {
+            font-family: 'jura', sans-serif;
+            color: map-get($map:$colors, $key:color-client);
+            font-size: 2rem;
+            transition: all 0.2s ease 0s;
+        }
+            &:hover {
+                font-weight: 500;
+            }
+    }
+    .navprod {
+        grid-column: 11/12;
+        grid-row: 3/3;
+        justify-self: center;
+        align-self: center;
+        z-index: 3;
+        a {
+            font-family: 'jura', sans-serif;
+            color: map-get($map:$colors, $key:font-colorcl);
+            font-size: 2rem;
+            transition: all 0.2s ease 0s;
+        }
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    .navsop {
+        grid-column: 12/13;
+        grid-row: 3/3;
+        justify-self: center;
+        align-self: center;
+        z-index: 3;
+        a {
+            font-family: 'jura', sans-serif;
+            color: map-get($map:$colors, $key:font-colorcl);
+            font-size: 2rem;
+            transition: all 0.2s ease 0s;
+        }
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    .navvid {
+        grid-column: 10/11;
+        grid-row: 3/3;
+        justify-self: center;
+        align-self: center;
+        z-index: 3;
+        a {
+            font-family: 'jura', sans-serif;
+            color: map-get($map:$colors, $key:font-colorcl);
+            font-size: 2rem;
+            transition: all 0.2s ease 0s;
+        }
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    .navhome {
+        grid-column: 9/10;
+        grid-row: 3/3;
+        justify-self: center;
+        align-self: center;
+        z-index: 3;
+        a {
+            font-family: 'jura', sans-serif;
+            color: map-get($map:$colors, $key:font-colorcl);
+            font-size: 2rem;
+            transition: all 0.2s ease 0s;
+        }
+            &:hover {
+                font-weight: 500;
+            }
+        }
+}
