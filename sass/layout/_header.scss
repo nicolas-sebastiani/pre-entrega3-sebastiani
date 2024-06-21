@@ -46,7 +46,7 @@
         a {
             font-family: 'jura', sans-serif;
             color: map-get($map:$colors, $key:color-client);
-            font-size: map-get($map: $fontsize, $key:xxl);
+            font-size: map-get($map: $fontsize, $key:xl);
             transition: all 0.2s ease 0s;
         }
             &:hover {
@@ -62,7 +62,7 @@
         a {
             font-family: 'jura', sans-serif;
             color: map-get($map:$colors, $key:font-colorcl);
-            font-size: map-get($map: $fontsize, $key:xxl);
+            font-size: map-get($map: $fontsize, $key:xl);
             transition: all 0.2s ease 0s;
         }
             &:hover {
@@ -78,7 +78,7 @@
         a {
             font-family: 'jura', sans-serif;
             color: map-get($map:$colors, $key:font-colorcl);
-            font-size: map-get($map: $fontsize, $key:xxl);
+            font-size: map-get($map: $fontsize, $key:xl);
             transition: all 0.2s ease 0s;
         }
             &:hover {
@@ -94,7 +94,7 @@
         a {
             font-family: 'jura', sans-serif;
             color: map-get($map:$colors, $key:font-colorcl);
-            font-size: map-get($map: $fontsize, $key:xxl);
+            font-size: map-get($map: $fontsize, $key:xl);
             transition: all 0.2s ease 0s;
         }
             &:hover {
@@ -110,7 +110,7 @@
         a {
             font-family: 'jura', sans-serif;
             color: map-get($map:$colors, $key:font-colorcl);
-            font-size: map-get($map: $fontsize, $key:xxl);
+            font-size: map-get($map: $fontsize, $key:xl);
             transition: all 0.2s ease 0s;
         }
             &:hover {
