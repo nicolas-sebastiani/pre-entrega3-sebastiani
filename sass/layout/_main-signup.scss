@@ -20,6 +20,7 @@
         backdrop-filter: blur(3px);
         width: 410px;
         height: 280px;
+        box-shadow: 5px 5px 5px black;
         .registerlink p {
             color: map-get($map: $colors, $key:color-client );
             font-family: 'jura', sans-serif;
@@ -38,6 +39,8 @@
             margin: 10px;
             border-radius: 5px;
             font-size: map-get($map: $fontsize, $key: l);
+            font-family: 'jura',sans-serif;
+            letter-spacing: 5px;
             text-align: center;
         }
         .remember {

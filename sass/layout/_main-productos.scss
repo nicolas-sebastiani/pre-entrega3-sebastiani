@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    gap: 20px;
+    font-family: 'jura', sans-serif;
+    padding: 0 20px;
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 300px;
+        margin: 30px;
+        .header{
+            width: 50%;
+            height: 300px;
+            a {
+                position: relative;
+                display: block;
+            }
+            img {
+                padding: 10px;
+                border-radius: 50%;
+            }
+        }
+        .descripcion {
+            padding: 20px;
+            height: 300px;
+            background: #fbfbfb;
+            h2 {
+                font-family: 'jura',sans-serif;
+                font-weight: bold;
+                font-size: map-get($map: $fontsize, $key: xxxl);
+            }
+            p {
+                font-family: 'jura',sans-serif;
+                font-size: map-get($map: $fontsize, $key: xxl);
+                a {
+                    font-family: 'jura', sans-serif;
+                    font-weight: bold;
+                    font-size: map-get($map: $fontsize, $key: xxl);
+                }
+            }
+        }
+        
+    }
+}
