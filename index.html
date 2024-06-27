@@ -8,32 +8,37 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="nav">
-        <div class="nav__logo">
-            <a href="#"><img src="./assets/img/logo.png" alt="plantium"></a>
-        </div>
-        <div class="nav__logobr">
-            <a href="#"><img src="./assets/img/BR40.png" alt="brasil"></a>
-        </div>
-        <div class="nav__logoar">
-            <a href="#"><img src="./assets/img/AR40.png" alt="argentina"></a>
-        </div>
-        <div class="nav__linksign">
-            <a href="./pages/sign-in.html">Sign In</a>
-        </div>
-        <div class="nav__lightg"></div>
-        <div class="nav__linkprod">
-            <a href="./pages/productos.html">Productos</a>
-        </div>
-        <div class="nav__linksop">
-            <a href="./pages/soporte.html">Soporte</a>
-        </div>
-        <div class="nav__linkvid">
-            <a href="./pages/videos.html">Videos</a>
-        </div>
-        <div class="nav__linkhome">
-            <a href="#">Home</a>
-        </div>
+    <header>
+        <nav class="navbar navbar-light p-0">
+            <div class="container-fluid grey-dark p-2">
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="./assets/img/logo.png"></a>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm p-0 grey-light font-nav fs-4">
+            <div class="container-fluid">
+                <div class="d-flex color-fontnav">
+                    <a class="nav-link" href="./pages/sign-up.html">Sign In</a>
+                </div>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse show justify-content-end " id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <a class="nav-link color-fontnav" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color-fontnav" href="./pages/videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link color-fontnav" href="./pages/productos.html">Productos</a>
+                <li class="nav-item">
+                    <a class="nav-link color-fontnav" href="./pages/soporte.html">Soporte</a>
+                </li>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="index">
@@ -56,28 +61,30 @@
             <div class="index__praba"><a href="https://pulverizadorespraba.com" target="_blank"><img src="./assets/img/praba.png" alt="Praba"></a></div>
             </section>
     </main>
-    <footer class="foot">
-        <div class="foot__light"></div>
-        <div class="foot__fb">
-            <a href="https://www.facebook.com" target="_blank"><img src="./assets/img/facebook.png" alt="Facebook"></a>
+    <footer class="container-fluid p-0">
+        <div class="d-flex flex-row-reverse bd-highlight gap-4 grey-light align-items-center">
+            <div class="me-4"><a href="https://www.facebook.com"><img class="img-fluid" src="./assets/img/facebook.png" alt="facebook"></a></div>
+            <div><a href="https://www.instagram.com"><img class="img-fluid" src="./assets/img/Instagram.png" alt="instragram"></a></div>
+            <div><a href="https://www.tiktok.com"><img class="img-fluid" src="./assets/img/TikTok.png" alt="tiktok"></a></div>
+            <div><a href="https://www.youtube.com"><img class="img-fluid" src="./assets/img/YouTubeLogo.png" alt="youtube"></a></div>
+            <div><a href="https://x.com"><img class="img-fluid" src="./assets/img/TwitterX.png" alt="twiterre"></a></div>
         </div>
-        <div class="foot__yt">
-            <a href="https://www.youtube.com" target="_blank"><img src="./assets/img/YouTubeLogo.png" alt="YouTube"></a>
-        </div>
-        <div class="foot__ins">
-            <a href="https://www.instagram.com" target="_blank"><img src="./assets/img/Instagram.png" alt="Intagram"></a>
-        </div>
-        <div class="foot__tk">
-            <a href="https://www.tiktok.com" target="_blank"><img src="./assets/img/TikTok.png" alt="TikTok"></a>
-        </div>
-        <div class="foot__tw">
-            <a href="https://www.twitter.com" target="_blank"><img src="./assets/img/TwitterX.png" alt="Twitter"></a>
-        </div>
-        <div class="foot__logo"><img src="./assets/img/logo.png" alt="plantium"></div>
-        <div class="foot__wsplogo"><img src="./assets/img/Vectorwsp.png" alt="whatsapp"></div>
-        <div class="foot__tel"><p>3400-234-5545</p></div>
-        <div class="foot__ubilogo"><img src="./assets/img/Vectorubire.png" alt="ubicacion"></div>
-        <div class="foot__dir"><p>San Luis 279, Villa Constitución, Argentina.</p></div>
+        <nav class="navbar navbar-light grey-dark">
+            <div class="container-fluid">
+                <div class="font-size2 color-fontnav">
+                    <a href="https://www.google.com/maps/place/Plantium+S.A./@-33.2330792,-60.3231484,18.18z/data=!4m6!3m5!1s0x95b76c14ef35f0f7:0x628a2c9eed560957!8m2!3d-33.2326331!4d-60.323091!16s%2Fg%2F1yfj5dpdl?entry=ttu">
+                        <img class="mb-1" src="./assets/img/Vectorubire.png" alt="ubicacion">
+                    </a>
+                    <span>San Luis 279, Villa Constitucion, Argentina.</span>
+                    <br>
+                    <a href="https://web.whatsapp.com"><img src="./assets/img/Vectorwsp.png" alt="whatsapp"></a>
+                    <span>+54 3400 356-548</span>
+                </div>
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="./assets/img/logo.png" alt="plantium"></a>
+            </div>
+        </nav>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
