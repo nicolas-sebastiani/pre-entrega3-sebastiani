@@ -5,35 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantium</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="nav">
-        <div class="nav__logo">
-            <a href="../index.html"><img src="../assets/img/logo.png" alt="plantium"></a>
-        </div>
-        <div class="nav__logobr">
-            <a href="#"><img src="../assets/img/BR40.png" alt="brasil"></a>
-        </div>
-        <div class="nav__logoar">
-            <a href="#"><img src="../assets/img/AR40.png" alt="argentina"></a>
-        </div>
-        <div class="nav__linksign">
-            <a href="./sign-up.html">Sign In</a>
-        </div>
-        <div class="nav__lightg"></div>
-        <div class="nav__linkprod">
-            <a href="#">Productos</a>
-        </div>
-        <div class="nav__linksop">
-            <a href="./soporte.html">Soporte</a>
-        </div>
-        <div class="nav__linkvid">
-            <a href="./videos.html">Videos</a>
-        </div>
-        <div class="nav__linkhome">
-            <a href="../index.html">Home</a>
-        </div>
+    <header>
+        <nav class="navbar navbar-light p-0">
+            <div class="container-fluid grey-dark p-2">
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="../assets/img/logo.png"></a>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm p-0 grey-light fontstd fs-4">
+            <div class="container-fluid">
+                <div class="d-flex colorstd animation">
+                    <a class="nav-link" href="./sign-up.html">Sign In</a>
+                </div>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse show justify-content-end " id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <a class="nav-link colorstd animation" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorstd animation" href="./videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link colorstd animation" href="#">Productos</a>
+                <li class="nav-item">
+                    <a class="nav-link colorstd animation" href="./soporte.html">Soporte</a>
+                </li>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="container">
@@ -72,28 +78,32 @@
             </div>
         </div>
     </main>
-    <footer class="foot">
-        <div class="foot__light"></div>
-        <div class="foot__fb">
-            <a href="https://www.facebook.com" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook"></a>
+    <footer class="container-fluid p-0">
+        <div class="d-flex flex-row-reverse bd-highlight gap-4 grey-light align-items-center">
+            <div class="me-4"><a class="animation" href="https://www.facebook.com"><img class="img-fluid" src="../assets/img/facebook.png" alt="facebook"></a></div>
+            <div><a class="animation" href="https://www.instagram.com"><img class="img-fluid" src="../assets/img/Instagram.png" alt="instragram"></a></div>
+            <div><a class="animation" href="https://www.tiktok.com"><img class="img-fluid" src="../assets/img/TikTok.png" alt="tiktok"></a></div>
+            <div><a class="animation" href="https://www.youtube.com"><img class="img-fluid" src="../assets/img/YouTubeLogo.png" alt="youtube"></a></div>
+            <div><a class="animation" href="https://x.com"><img class="img-fluid" src="../assets/img/TwitterX.png" alt="twiterre"></a></div>
         </div>
-        <div class="foot__yt">
-            <a href="https://www.youtube.com" target="_blank"><img src="../assets/img/YouTubeLogo.png" alt="YouTube"></a>
-        </div>
-        <div class="foot__ins">
-            <a href="https://www.instagram.com" target="_blank"><img src="../assets/img/Instagram.png" alt="Intagram"></a>
-        </div>
-        <div class="foot__tk">
-            <a href="https://www.tiktok.com" target="_blank"><img src="../assets/img/TikTok.png" alt="TikTok"></a>
-        </div>
-        <div class="foot__tw">
-            <a href="https://www.twitter.com" target="_blank"><img src="../assets/img/TwitterX.png" alt="Twitter"></a>
-        </div>
-        <div class="foot__logo"><img src="../assets/img/logo.png" alt="plantium"></div>
-        <div class="foot__wsplogo"><img src="../assets/img/Vectorwsp.png" alt="whatsapp"></div>
-        <div class="foot__tel"><p>3400-234-5545</p></div>
-        <div class="foot__ubilogo"><img src="../assets/img/Vectorubire.png" alt="ubicacion"></div>
-        <div class="foot__dir"><p>San Luis 279, Villa Constitución, Argentina.</p></div>
+        <nav class="navbar navbar-light grey-dark">
+            <div class="container-fluid">
+                <div class="fs-5 colorstd">
+                    <a class="d-inline" href="https://www.google.com/maps" target="_blank">
+                        <i class="bi bi-geo-alt-fill iconcolor"></i>
+                    </a>
+                    <span>San Luis 279, Villa Constitucion, Argentina.</span>
+                    <br>
+                    <a class="d-inline" href="https://web.whatsapp.com" target="_blank">
+                        <i class="bi bi-whatsapp iconcolor"></i>
+                    </a>
+                    <span>+54 3400 356-548</span>
+                </div>
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="../assets/img/logo.png" alt="plantium"></a>
+            </div>
+        </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
