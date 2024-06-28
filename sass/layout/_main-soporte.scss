@@ -18,14 +18,14 @@
         h2 {
             font-size: map-get($map: $fontsize, $key: xxxl);
             font-family: 'jura', sans-serif;
-            font-weight: 700;
+            font-weight: 600;
             color: map-get($map:$colors,$key:color-client);
             margin-left: 1rem;
         }
     }
     .soporte__container {
         grid-column: 1/13;
-        grid-row: 2/7;
+        grid-row: 1/6;
         display: flex;
         justify-content: space-around;
         align-content: center;
